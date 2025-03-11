@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVIDIA </title>
+    <link rel="stylesheet" href="principal.css">
+    <script defer src="principal.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logD2.png" alt="NVIDIA Logo">
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="#">Tecnologías</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+
+        <section class="hero">
+            <div class="hero-background">
+                <video src="img/pp1.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="hero-content">
+                <h1>Potencia tu mundo con NVIDIA</h1>
+                <h4>Explora las últimas innovaciones en inteligencia artificial, gaming y más.</h4>
+                <button class="cta-button">Descubre más</button>
+            </div>
+        </section>
+
+        <P>
+            NVIDIA® RTX™ es la plataforma líder en computación visual profesional, utilizada en todo el mundo para
+            potenciar desde el diseño industrial y arquitectónico hasta efectos especiales avanzados y visualización
+            científica de alta complejidad. Con la confianza de millones de usuarios creativos y técnicos, las
+            soluciones profesionales de NVIDIA RTX y NVIDIA Quadro® optimizan flujos de trabajo y transforman desafíos
+            complejos en oportunidades de éxito para el futuro
+        </P>
+
+
+
+        <div class="contenedor">
+            <section class="carousel"> 
+                <div class="carousel-container">
+                    <div class="slide active">
+                        <img src="img/p16.png" alt="Imagen 1">
+                        <div class="caption">
+                            <h2>La Plataforma Modelo de Base Mundial para Acelerar la IA Física</h2>
+                            <p>El desarrollo de sistemas físicos incorporados en IA, como robots y vehículos autónomos, se
+                                acelera con la nueva plataforma NVIDIA Cosmos™.</p>
+                            <button class="cta-button">Lea el Comunicado de Prensa</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/geonomico.gif" alt="Imagen 2">
+                        <div class="caption">
+                            <h2>Un Gran Avance en el Modelado Genómico</h2>
+                            <p>La inteligencia artificial está revolucionando el modelado genómico con avances sin
+                                precedentes en el sector de la salud.</p>
+                            <button class="cta-button">Descubre más</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/ceo.jpg" alt="Imagen 3">
+                        <div class="caption">
+                            <h2>NVIDIA GTC: Keynote de GTC con CEO Jensen Huang</h2>
+                            <p>Conoce las últimas innovaciones en IA y tecnología con Jensen Huang en la GTC.</p>
+                            <button class="cta-button">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <button id="prevBtn">❮</button>
+                <button id="nextBtn">❯</button>
+            </section>
+        
+            <div class="texto">
+                <p>NVIDIA® RTX™ es la plataforma líder en computación visual profesional, diseñada para impulsar la creatividad
+                    y la innovación en una amplia variedad de campos. Desde el diseño industrial y arquitectónico hasta los
+                    efectos visuales de alta gama y la visualización científica avanzada, nuestras soluciones están al servicio
+                    de miles de profesionales en todo el mundo. Con la fiabilidad y potencia de las tecnologías NVIDIA RTX y
+                    NVIDIA Quadro®, proporcionamos herramientas que optimizan flujos de trabajo y resuelven los desafíos más
+                    complejos, abriendo nuevas oportunidades para un futuro lleno de logros y avances.</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2>Descubre las formas en que los profesionales usan RTX</h2>
+            <p>Con la tecnología de NVIDIA, los profesionales pueden abordar flujos de trabajo exigentes y traspasar los límites de la creatividad.</p>
+        
+            <!-- Pestañas -->
+            <div class="tabs">
+                <div class="tab active" onclick="changeTab(0)">Noticias</div>
+                <div class="tab" onclick="changeTab(1)">Seminarios web</div>
+                <div class="tab" onclick="changeTab(2)">Casos de éxito</div>
+                <div class="tab" onclick="changeTab(3)">Demos</div>
+            </div>
+        
+            <!-- Contenedor de tarjetas -->
+            <div id="cardsContainer" class="cards-container"></div>
+        </div>
+
+      <!-- apartado de fotos -->
+        <div class="presentation-section">
+            <div class="text-content">
+                <h2>Diseño de presentaciones: <br><strong>Todas las estrellas de RTX</strong></h2>
+                <p>
+                    Descubra cómo los artistas, arquitectos y diseñadores de productos 3D 
+                    utilizan las potentes características de NVIDIA RTX™ y NVIDIA Omniverse 
+                    para elevar los flujos de trabajo gráficos, lo que produce un trabajo 
+                    cautivador que los ha llevado al nivel de NVIDIA RTX All Stars.
+                </p>
+                <a href="#" class="cta-button">Obtener el libro electrónico</a>
+            </div>
+            
+            <div class="image-gallery">
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">Sony Pictures Animation</div>
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">MARZ</div>
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">Magicbox</div>
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">Cgan</div>
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">Gold Creek VR</div>
+                <div class="image-item" style="background-image: url('https://via.placeholder.com/200');">Seyhan Lee</div>
+            </div>
+        </div>
+        
+
+        <section class="news-section">
+            <h2>Recomendaciones</h2>
+            <div class="news-wrapper">
+                <div class="news-container">
+                    <div class="news-box">
+                        <img src="img/" alt="GeForce RTX 5070">
+                        <span class="category">Hardware para juegos | Producto</span>
+                        <h3 class="news-title">La GeForce RTX 5070 Ti ya está disponible</h3>
+                        <p>Obtén un rendimiento revolucionario con la GeForce RTX 5070 Ti, potenciada por NVIDIA Blackwell.</p>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/p2.webp" alt="NVIDIA DLSS 4">
+                        <span class="category">Juegos | Anuncio</span>
+                        <h3 class="news-title">NVIDIA DLSS 4</h3>
+                        <p>Ya hay más de 75 juegos y aplicaciones disponibles, y habrá más por venir.</p>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/p4.webp" alt="Aplicación NVIDIA">
+                        <span class="category">Juegos | Producto</span>
+                        <h3 class="news-title">Aplicación NVIDIA</h3>
+                        <p>El compañero esencial para jugadores que aprovechan NVIDIA DLSS 4 y otras tecnologías avanzadas.</p>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/p3.webp" alt="Evento NVIDIA GTC">
+                        <span class="category">Evento NVIDIA GTC</span>
+                        <h3 class="news-title">Lo que viene en el futuro en IA comienza aquí</h3>
+                        <p>Únete a nosotros en persona el 21 de marzo en San José, California. La inscripción ya está abierta.</p>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/p11.jpg" alt="Evento NVIDIA GTC">
+                        <span class="category">Evento NVIDIA GTC</span>
+                        <h3 class="news-title">Lo que viene en el futuro en IA comienza aquí</h3>
+                        <p>Únete a nosotros en persona el 21 de marzo en San José, California. La inscripción ya está abierta.</p>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/p14.jpeg" alt="Evento NVIDIA GTC">
+                        <span class="category">Evento NVIDIA GTC</span>
+                        <h3 class="news-title">Lo que viene en el futuro en IA comienza aquí</h3>
+                        <p>Únete a nosotros en persona el 21 de marzo en San José, California. La inscripción ya está abierta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NVIDIA Corporation. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
